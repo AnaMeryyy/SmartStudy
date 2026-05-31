@@ -3,7 +3,8 @@ SmartStudy AI – Personalized Study Planner
 
 Final project for the Building AI course
 
-##Summary
+## Summary
+
 SmartStudy AI is an intelligent study planner that helps students organize their study time efficiently by predicting workload difficulty and recommending optimized schedules based on past performance and deadlines. It uses machine learning to adapt to each student’s habits and improve productivity over time.
 
 Building AI course project
