@@ -4,10 +4,7 @@ Final project for the Building AI course
 
 ## Summary
 
-SmartStudy AI is an AI-based study planner that helps students organize their study time more efficiently by predicting task difficulty and estimating the time needed for each assignment. It then generates a personalized study schedule based on deadlines and workload.
-
-Building AI course project
-
+SmartStudy AI is an AI-based study planner that helps students organize their study time more efficiently by predicting task difficulty and estimating the time needed for each assignment. It then generates a personalized study schedule based on deadlines and workload. It is a Building AI course project.
 ## Background
 
 Many students struggle with:
