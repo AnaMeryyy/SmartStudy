@@ -1,77 +1,82 @@
-# SmartStudy
-SmartStudy AI – Personalized Study Planner
+# SmartStudy AI
 
 Final project for the Building AI course
 
 ## Summary
 
-SmartStudy AI is an intelligent study planner that helps students organize their study time efficiently by predicting workload difficulty and recommending optimized schedules based on past performance and deadlines. It uses machine learning to adapt to each student’s habits and improve productivity over time.
+SmartStudy AI is an AI-based study planner that helps students organize their study time more efficiently by predicting task difficulty and estimating the time needed for each assignment. It then generates a personalized study schedule based on deadlines and workload.
 
 Building AI course project
 
+## Background
+
 Many students struggle with:
-Poor time management and last-minute studying
-Difficulty estimating how long tasks will take
-Stress caused by overloaded schedules
+* Poor time management
+* Underestimating study workload
+* Stress caused by last-minute studying
 
-This problem is very common among university students, especially in technical degrees like Computer Science.
-My motivation is personal: I often find it difficult to balance multiple assignments, exams, and projects, and I want a system that helps reduce stress and improve planning.
-This project is interesting because it combines AI with a real everyday problem affecting productivity and mental well-being.
+This problem is very common among university students, especially in demanding degrees such as Computer Science.
 
-How is it used?
+My motivation is personal, as I often find it difficult to balance multiple subjects, exams, and projects at the same time.
+
+This project is interesting because it applies AI to a real everyday problem that affects productivity and well-being.
+
+## How is it used?
 
 The user inputs:
-Subjects and assignments
-Deadlines
-Estimated difficulty (or past grades/time spent)
+* Subjects and tasks
+* Deadlines
+* Estimated difficulty or past performance
 
-The system then:
-Predicts time required for each task
-Builds a personalized weekly study schedule
-Updates recommendations based on user progress
+The system:
+* Predicts how long each task will take
+* Prioritizes tasks based on urgency
+* Generates a weekly personalized study plan
 
-It would be used mainly by students (university and high school), but also by professionals preparing certifications or exams.The app could be used on mobile or web, ideally checking daily recommendations.
+It is used by students through a web or mobile application that updates recommendations daily.
 
-Data and AI methods
+## Data and AI methods
+
 Data sources:
+* User input data (tasks, deadlines, study time)
+* Optional historical study behavior data
+* Public datasets on learning and productivity (if available)
 
-User input data (tasks, deadlines, study time)
-Optional historical academic performance data
-Possibly anonymized datasets from student productivity studies
-
-AI techniques:
-Linear regression (predict study time per task)
-Logistic regression (predict task difficulty: easy/medium/hard)
-Clustering (group similar types of tasks or students)
-Reinforcement learning (future improvement: adapt scheduling strategy)
+AI methods used:
+* Linear regression (time estimation)
+* Logistic regression (difficulty classification)
+* Clustering (grouping similar tasks)
+* Possible future use of neural networks for better personalization
 
 Tools:
-Python
-scikit-learn
-Pandas
-Challenges
+* Python
+* scikit-learn
+* Pandas
+
+## Challenges
 
 This project does not:
-Guarantee perfect productivity results
-Account for unexpected life events (illness, emergencies)
-Fully understand human motivation or procrastination
+* Guarantee perfect productivity results
+* Fully understand human motivation or procrastination
+* Replace personal judgment
 
 Other challenges:
-Data privacy (student performance data is sensitive)
-Accuracy depends heavily on user honesty
-Risk of over-reliance on AI for personal planning
+* Data privacy concerns
+* Dependence on accurate user input
+* Risk of over-reliance on AI suggestions
 
-Future improvements:
-Add integration with Google Calendar or Notion
-Build a mobile app version
-Add AI chatbot for study coaching
-Improve predictions using neural networks
-Include group study planning features
+## What next?
 
-With more data, the system could evolve into a full academic assistant.
+Future improvements could include:
+* Integration with Google Calendar or Notion
+* Mobile application development
+* AI chatbot for study coaching
+* Improved predictions using neural networks
+* Group study planning features
 
-Acknowledgments Inspired by:
+## Acknowledgments
 
-Elements of AI course by University of Helsinki & Reaktor
-OpenAI documentation and machine learning tutorials
-General productivity tools like Notion and Google Calendar
+Inspired by:
+* Elements of AI course (University of Helsinki & Reaktor)
+* General productivity tools like Notion and Google Calendar
+* OpenAI and machine learning educational resources
